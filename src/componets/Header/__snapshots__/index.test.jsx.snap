@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe bUjxye"
+  >
+    <div>
+      <div>
+        <img
+          alt=""
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=128&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=64&q=75 1x, /_next/image?url=%2Fimg.jpg&w=128&q=75 2x"
+          style="color: transparent;"
+          width="50"
+        />
+      </div>
+      <div>
+        <h2>
+          Nanai Residence
+        </h2>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img
+          alt=""
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a
+              href=""
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+            >
+              Reserve
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+            >
+              O Nanai Resort
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
