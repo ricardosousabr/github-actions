@@ -39,11 +39,7 @@ exports[`renders homepage unchanged 1`] = `
           width="40"
         />
       </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, aspernatur corrupti dolorum nesciunt vitae, impedit praesentium perspiciatis fugit beatae repudiandae vel excepturi tenetur eos sint. Expedita est voluptate laborum blanditiis.
-        </p>
-      </div>
+      <div />
       <div>
         <ul>
           <li>
