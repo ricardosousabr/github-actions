@@ -17,6 +17,6 @@ jobs:
               with:
               flags: --immutable-cache
       - name: Install dependencies
-        run: yarn add
+        run: yarn
       - name: Run tests
         run: yarn test
