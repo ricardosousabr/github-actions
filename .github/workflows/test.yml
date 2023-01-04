@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  tests_yarn:
+  testsyarn:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,7 +17,8 @@ jobs:
       - name: Run tests
         run: yarn test
 
-  tests_npm:
+  testsnpm:
+    needs: testsyarn
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
