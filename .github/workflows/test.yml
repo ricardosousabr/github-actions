@@ -16,17 +16,3 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
-
-  testsnpm:
-    if: ${{ always() }}
-    needs: testsyarn
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-        uses: actions/checkout@v2
-      - name: Set up node
-        uses: actions/setup-node@v3
-      - name: Install dependencies
-        run: npm install
-      - name: Run tests
-        run: npm test
