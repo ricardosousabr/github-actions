@@ -18,6 +18,7 @@ jobs:
         run: yarn test
 
   testsnpm:
+    if: ${{ always() }}
     needs: testsyarn
     runs-on: ubuntu-latest
     steps:
@@ -29,4 +30,3 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
-        
