@@ -7,10 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
-      - name: Set up node
-        uses: actions/setup-node@v3
+        uses: mskelton/setup-yarn@v1
+      - name: Set up yarn
+        uses: mskelton/setup-yarn@v1
+            with:
+                node-version: '16.x'
+      - name: flags for install command
+        uses: mskelton/setup-yarn@v1
+              with:
+              flags: --immutable-cache
       - name: Install dependencies
-        run: npm install
+        run: yarn add
       - name: Run tests
-        run: npm test
+        run: yarn test
