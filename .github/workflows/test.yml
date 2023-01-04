@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  testsyarn:
+  tests_yarn:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,10 +16,10 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
-  testsnpm:
-    needs: testsyarn
+  tests_npm:
     runs-on: ubuntu-latest
     steps:
+      needs: testsyarn
     - name: Check out code
         uses: actions/checkout@v2
       - name: Set up node
