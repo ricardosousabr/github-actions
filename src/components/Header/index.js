@@ -19,6 +19,12 @@ export default function Header() {
       <div>
         <div>
           <Image src={Menu} alt="" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            nam nobis consectetur exercitationem commodi temporibus, iure, totam
+            dicta numquam aspernatur fuga, quidem culpa molestiae? Quod velit in
+            sapiente veniam magnam.
+          </p>
         </div>
         <div></div>
         <div>
