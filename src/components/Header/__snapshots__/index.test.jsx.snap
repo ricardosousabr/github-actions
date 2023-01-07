@@ -38,6 +38,9 @@ exports[`renders homepage unchanged 1`] = `
           style="color: transparent;"
           width="40"
         />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam nobis consectetur exercitationem commodi temporibus, iure, totam dicta numquam aspernatur fuga, quidem culpa molestiae? Quod velit in sapiente veniam magnam.
+        </p>
       </div>
       <div />
       <div>
